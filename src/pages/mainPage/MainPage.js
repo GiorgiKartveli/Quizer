@@ -7,6 +7,7 @@ const MainPage = () => {
     <div>
       <div className={classes.welcome}>
         Welcome To <span className={classes.span}>The Quizer!</span>
+        <div>Alexander The Great has enough power but not as enough as me</div>
       </div>
       <div className={classes.wrapperDiv}>
         <div className={classes.lastSentence}>
