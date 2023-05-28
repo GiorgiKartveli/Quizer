@@ -1,0 +1,46 @@
+.contact_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 190px;
+}
+
+.contact_item h2 {
+  align-items: flex-end;
+}
+
+.contact_item svg {
+  width: 24px;
+  height: 24px;
+}
+
+.caption {
+  margin-left: 15px;
+  color: #ed6e00;
+}
+
+/* start responsive for max-width-600px */
+
+@media screen and (max-width: 600px) {
+  .contact_item {
+    display: block;
+    margin-top: 80px;
+    text-align: center;
+  }
+  .contact_item h2 {
+    align-items: center;
+  }
+}
+
+/* start responsive for max-width-768px */
+
+@media screen and (max-width: 768px) {
+  .contact_item {
+    display: block;
+    margin-top: 80px;
+    text-align: center;
+  }
+  .contact_item h2 {
+    align-items: center;
+  }
+}

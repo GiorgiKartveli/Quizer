@@ -1,0 +1,131 @@
+.hamburger {
+  display: none;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 6rem;
+  padding: 0 3%;
+  background-color: #e9e6d2;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border: 1px solid #777777;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.03);
+  width: 100%;
+}
+
+.quizerLogo {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  background-color: #e9e6d2;
+}
+
+.nav li {
+  margin-right: 5.5rem;
+  text-decoration: none;
+  background-color: #e9e6d2;
+}
+
+.nav a {
+  font-size: 1.25rem;
+  color: #321e24;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  background-color: #e9e6d2;
+}
+
+.nav a:hover,
+.nav a.active {
+  color: #f29b61;
+}
+
+/* start responsive for max-width-600px */
+
+@media screen and (max-width: 600px) {
+  .header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 6rem;
+    padding: 0 3%;
+    background-color: #e9e6d2;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border: 1px solid #777777;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.03);
+    width: 100%;
+  }
+
+  .nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .nav ul {
+    display: none;
+  }
+
+  .open li {
+    margin-bottom: 1rem;
+    background-color: #e9e6d2;
+  }
+
+  .open a {
+    color: #321e24;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .open a:hover,
+  .open a.active {
+    color: #f29b61;
+  }
+
+  .hamburger {
+    display: block;
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: #321e24;
+    background-color: transparent;
+    border: none;
+  }
+
+  .nav ul.open {
+    display: flex;
+    flex-direction: column;
+    background-color: #e9e6d2;
+  }
+
+  .nav ul.open li {
+    margin-bottom: 1rem;
+    background-color: #e9e6d2;
+  }
+  .nav ul.open a {
+    color: #321e24;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+  }
+
+  .nav ul.open a:hover,
+  .nav ul.open a.active {
+    color: #f29b61;
+  }
+}
+
+/* end responsive for max-width-600px */

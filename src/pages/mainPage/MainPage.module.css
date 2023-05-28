@@ -1,0 +1,76 @@
+.img {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.welcome {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 70px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.span {
+  color: #f29b61;
+}
+
+.lastSentence {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  font-size: 40px;
+  background-color: #fac751;
+}
+/* 
+.wrapperDiv {
+  width: 100%;
+  position: relative;
+} */
+
+/* start responsive for max-width-600px */
+
+@media screen and (max-width: 600px) {
+  .welcome {
+    font-size: 40px;
+    justify-content: center;
+    padding-bottom: 32px;
+  }
+  .img {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+  }
+}
+
+/* start responsive for max-width-768px */
+
+@media screen and (max-width: 768px) {
+  .welcome {
+    font-size: 40px;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 32px;
+  }
+  .img {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+  }
+}
+
+/* start responsive for max-width-992px */
+
+@media screen and (max-width: 992px) {
+  .welcome {
+    font-size: 40px;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 32px;
+  }
+  .img {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+  }
+}
